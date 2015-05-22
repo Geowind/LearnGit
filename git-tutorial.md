@@ -10,6 +10,7 @@
   
 
 ##Git基本操作
+所有的Git命令都是以git 开头。
 #### 新建Git项目
 `git init`
 
@@ -39,7 +40,7 @@
 `git checkout -- filename.txt`
 
 ######2. 已提交到暂存区域的情况
-`git reset HEAD filename.txt` 还原已加入缓存区的文件到工作区
+`git reset HEAD -- filename.txt` 还原已加入缓存区的文件到工作区
 
 `git checkout -- filename.txt` 撤销该文件的改动
 
