@@ -27,6 +27,22 @@
 #### 查看工作目录状态
 `git status` 
 
+#### 查看本地工作区的改动
+`git diff -- filename.txt` 查看单个文件的改动
+
+`git diff ` 查看工作区所有文件的改动
+
+`git diff --cached` 查看***已加入暂存区域*** 但 **还未提交到本地仓库****的文件改动
+
+#### 撤销改动
+######1. 还未提交到暂存区域的情况
+`git checkout -- filename.txt`
+
+######2. 已提交到暂存区域的情况
+`git reset HEAD filename.txt` 还原已加入缓存区的文件到工作区
+
+`git checkout -- filename.txt` 撤销该文件的改动
+
 #### 提交到本地仓库
 `git commit` 提交在Vim中填写commit信息
 
@@ -63,7 +79,10 @@
 
 `git checkout dev` 从当前分支切换到 **dev** 分支
 
-以上两条命令可以合并成一条 `git checkout -b dev`
+#### 切换分支
+`git checkout dev` 从当前分支切换到 **dev** 分支
+
+创建子分支也可以用这一条命令 `git checkout -b dev`
 
 #### 查看所有分支（包括远程分支）
 `git branch -av` **-a** 查看所有分支 **-v** 查看分支详细信息
@@ -71,8 +90,36 @@
 #### 合并分支
 `git meger dev` 合并 **dev** 分支到当前分支
 
+#### 删除分支
+`git branch dev -d` 删除 **dev** 分支
+
+#### Stash 的使用
+`git stash` 存档当前项目代码
+
+`git stash pop` 恢复最新存档代码到工作区域**并且不保留存档**
+
+`git stash apply`  恢复最新存档代码到工作区域**仍然保留存档**
+
+`git stash list` 查看所有存档
+
+#### Git ignore
+忽略不想添加到Git仓库的文件。
+
+git ignore文件汇总：[git@github.com:github/gitignore.git](https://github.com/github/gitignore)
+
+
 
 ##Git远程库和团队协作
+
 以Github项目为例。
 ####生成ssh-key
-``
+`ssh-keygen -t rsa -C "youremail@example.com"`
+
+#### 给Github账号添加ssh-key
+在 **~/.ssh** 目录下面找到 **id_rsa.pub** 文件，把ssh-key的内容添加到 **Github>Setting>SSH Keys** 里面。
+
+#### Github Respository Issue
+在github项目首页提交issue。
+
+#### Github Repository Pull Request
+先 ***Fork*** 某个项目，然后提交改动，然后提交 ***Pull Request***。
