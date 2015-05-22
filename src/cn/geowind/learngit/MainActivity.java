@@ -11,7 +11,12 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< HEAD
         setContentView(R.layout.activity_main11);
+=======
+        setContentView(R.layout.activity_main3);
+>>>>>>> gaile 3
+>>>>>>> delete main2
     }
 
 
