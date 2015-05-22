@@ -24,6 +24,8 @@
 
 `git add -A` 或者 `git add .` 添加所有文件
 
+**-A** 和 **.** 的区别： **.** 只能把当前目录的所有改动文件添加到暂存区，而**-A **是可以把整个项目的所有改动文件添加到暂存区。
+
 
 #### 查看工作目录状态
 `git status` 
@@ -56,6 +58,9 @@
 `git log` 查看详细的提交日志
 
 `git log --stat` 查看提交里面改动的文件信息
+
+#### 查看文件改动情况
+`git blame filename.txt`
 
 #### 克隆远程仓库
 `git clone git@github.com:Geowind/LearnGit.git` 本地不存在该远程仓库的前提下clone该远程仓库
