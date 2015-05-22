@@ -107,8 +107,15 @@
 
 git ignore文件汇总：[git@github.com:github/gitignore.git](https://github.com/github/gitignore)
 
+####Git 图形界面的工具
+Git GUI,Gittortoise,SmartGit，Github客户端等
 
+####其他Git代码托管网站
+######1.国内
+[开源中国Git](https://git.oschina.net/),[Coding.net](http://coding.net),[GitCafe](http://gitcafe.com),[CSDN Code](http://code.csdn.net/)
 
+###### 2.国外
+[GitLab](http://gitlab.com), [Bitbucket](www.bitbucket.org/)
 ##Git远程库和团队协作
 
 以Github项目为例。
@@ -119,7 +126,7 @@ git ignore文件汇总：[git@github.com:github/gitignore.git](https://github.co
 在 **~/.ssh** 目录下面找到 **id_rsa.pub** 文件，把ssh-key的内容添加到 **Github>Setting>SSH Keys** 里面。
 
 #### Github Respository Issue
-在github项目首页提交issue。
+在github项目首页提交 ***issue***。
 
 #### Github Repository Pull Request
 先 ***Fork*** 某个项目，然后提交改动，然后提交 ***Pull Request***。
