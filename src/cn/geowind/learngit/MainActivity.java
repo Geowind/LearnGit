@@ -11,7 +11,12 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< HEAD
         setContentView(R.layout.activity_main9);
+=======
+        setContentView(R.layout.activity_main5);
+	System.out.println("dengwenbin");
+>>>>>>> 94d44f20df35c5ddd66d3ee9c159bccd0d736e66
     }
 
 
