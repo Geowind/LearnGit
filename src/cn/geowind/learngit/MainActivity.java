@@ -11,7 +11,8 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main20);
+        setContentView(R.layout.activity_main22);
+	//I modified it --by zt
     }
 
 
