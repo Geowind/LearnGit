@@ -59,6 +59,12 @@
 
 `git log --stat` 查看提交里面改动的文件信息
 
+#### 查看历史提交改动情况
+`git show HEAD` 查看最近的一次提交，可以简化为`git show`
+
+`git show HEAD^` 查看倒数第二次提交，以此类推，有多少个`^`符号就表示查看倒数第几次提交的内容
+ 
+
 #### 查看文件改动情况
 `git blame filename.txt`
 
