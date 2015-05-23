@@ -33,5 +33,14 @@ public class MainActivity extends Activity {
             return true;
         }
         return super.onOptionsItemSelected(item);
+    
     }
+
+	System.out.println("233");
+	// 友情提示：1.最新版add all要这样写：git add --all :/(or git add -A :/)
+	//2.To restrict the command to the current directory, run:
+	//
+	//git add --all .
+	//  (or git add -A .)
+    //我想我知道，大公司是怎样做到，让员工如何让员工每天把代码提交了，哈哈，我有没有很聪明
 }
