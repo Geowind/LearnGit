@@ -1,4 +1,4 @@
-﻿#Git简易教程及团队项目协作
+#Git简易教程及团队项目协作
 
 
 ##Git是什么？为什么Git如此重要？
@@ -35,7 +35,7 @@
 
 `git diff ` 查看工作区所有文件的改动
 
-`git diff --cached` 查看***已加入暂存区域*** 但 **还未提交到本地仓库****的文件改动
+`git diff --cached` 查看***已加入暂存区域*** 但 **还未提交到本地仓库**的文件改动
 
 #### 撤销改动
 ######1. 还未提交到暂存区域的情况
@@ -142,3 +142,9 @@ Git GUI,Gittortoise,SmartGit，Github客户端等
 
 #### Github Repository Pull Request
 先 ***Fork*** 某个项目，然后提交改动，然后提交 ***Pull Request***。
+
+
+---
+####推荐两篇Git教程
+1. [廖雪峰Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+2. [Pro Git(中文版)](http://jingxuan.io/progit/)
