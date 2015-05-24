@@ -1,4 +1,4 @@
-﻿#Git简易教程及团队项目协作
+#Git简易教程及团队项目协作
 
 
 ##Git是什么？为什么Git如此重要？
@@ -72,7 +72,7 @@
 `git clone git@github.com:Geowind/LearnGit.git` 本地不存在该远程仓库的前提下clone该远程仓库
 
 #### 关联远程仓库
-`git remote add origin git@github.com:Geowind/LearnGit.git` 远程仓库为空，将远程仓库和本地仓库关联起来
+`git remote add origin git@github.com:Geowind/LearnGit.git` 远程仓库为空，讲远程仓库和本地仓库关联起来
 
 
 #### 拉取远程仓库代码并合并
@@ -100,7 +100,7 @@
 `git branch -av` **-a** 查看所有分支 **-v** 查看分支详细信息
 
 #### 合并分支
-`git merge dev` 合并 **dev** 分支到当前分支
+`git meger dev` 合并 **dev** 分支到当前分支
 
 #### 删除分支
 `git branch dev -d` 删除 **dev** 分支
