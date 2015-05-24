@@ -100,7 +100,7 @@
 `git branch -av` **-a** 查看所有分支 **-v** 查看分支详细信息
 
 #### 合并分支
-`git meger dev` 合并 **dev** 分支到当前分支
+`git merge dev` 合并 **dev** 分支到当前分支
 
 #### 删除分支
 `git branch dev -d` 删除 **dev** 分支
