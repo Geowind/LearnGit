@@ -1,7 +1,7 @@
-﻿#Git简易教程及团队项目协作
+﻿# Git简易教程及团队项目协作
 
 
-##Git是什么？为什么Git如此重要？
+## Git是什么？为什么Git如此重要？
   - 代码版本管理
   - 团队协作
   - 几乎所有公司都用
@@ -9,7 +9,7 @@
   - 非常强大
   
 
-##Git基本操作
+## Git基本操作
 所有的Git命令都是以git 开头。
 #### 新建Git项目
 `git init`
@@ -38,10 +38,10 @@
 `git diff --cached` 查看***已加入暂存区域*** 但 **还未提交到本地仓库**的文件改动
 
 #### 撤销改动
-######1. 还未提交到暂存区域的情况
+###### 1. 还未提交到暂存区域的情况
 `git checkout -- filename.txt`
 
-######2. 已提交到暂存区域的情况
+###### 2. 已提交到暂存区域的情况
 `git reset HEAD -- filename.txt` 还原已加入缓存区的文件到工作区
 
 `git checkout -- filename.txt` 撤销该文件的改动
@@ -119,19 +119,19 @@
 
 git ignore文件汇总：[git@github.com:github/gitignore.git](https://github.com/github/gitignore)
 
-####Git 图形界面的工具
+#### Git 图形界面的工具
 Git GUI,Gittortoise,SmartGit，Github客户端等
 
-####其他Git代码托管网站
-######1.国内
+#### 其他Git代码托管网站
+###### 1.国内
 [开源中国Git](https://git.oschina.net/),[Coding.net](http://coding.net),[GitCafe](http://gitcafe.com),[CSDN Code](http://code.csdn.net/)
 
 ###### 2.国外
 [GitLab](http://gitlab.com), [Bitbucket](www.bitbucket.org/)
-##Git远程库和团队协作
+## Git远程库和团队协作
 
 以Github项目为例。
-####生成ssh-key
+#### 生成ssh-key
 `ssh-keygen -t rsa -C "youremail@example.com"`
 
 #### 给Github账号添加ssh-key
@@ -145,6 +145,6 @@ Git GUI,Gittortoise,SmartGit，Github客户端等
 
 
 ---
-####推荐两篇Git教程
+#### 推荐两篇Git教程
 1. [廖雪峰Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
 2. [Pro Git(中文版)](http://jingxuan.io/progit/)
