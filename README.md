@@ -35,7 +35,7 @@
 
 `git diff ` 查看工作区所有文件的改动
 
-`git diff --cached` 查看***已加入暂存区域*** 但 **还未提交到本地仓库**的文件改动
+`git diff --cached` 查看**已加入暂存区域** 但 **还未提交到本地仓库**的文件改动
 
 #### 撤销改动
 ###### 1. 还未提交到暂存区域的情况
@@ -120,11 +120,11 @@
 git ignore文件汇总：[git@github.com:github/gitignore.git](https://github.com/github/gitignore)
 
 #### Git 图形界面的工具
-Git GUI,Gittortoise,SmartGit，Github客户端等
+GithUp, Git GUI, Gittortoise, SmartGit，Github客户端等
 
 #### 其他Git代码托管网站
 ###### 1.国内
-[开源中国Git](https://git.oschina.net/),[Coding.net](http://coding.net),[GitCafe](http://gitcafe.com),[CSDN Code](http://code.csdn.net/)
+[开源中国Gitee](https://gitee.com/),[Coding.net](http://coding.net)
 
 ###### 2.国外
 [GitLab](http://gitlab.com), [Bitbucket](www.bitbucket.org/)
